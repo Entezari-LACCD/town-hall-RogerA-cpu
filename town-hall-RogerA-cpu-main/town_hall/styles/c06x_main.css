@@ -45,9 +45,9 @@ main {
 }
 /* the styles for the section */
 section {
-	width: 525px;
-	float: right;
+	width: 400px;
 	padding: 0 20px 20px 20px;
+	float: left;
 }
 section h1 {
 	font-size: 150%;
@@ -94,16 +94,20 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
-	float: right;
+	width: 140px;
 	padding: 0 0 20px 20px;
+}
+aside.event{
+	float: right;}
+
+aside.speakers{
+	float:left;
 }
 aside h2 {
 	color: #800000;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
-
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
