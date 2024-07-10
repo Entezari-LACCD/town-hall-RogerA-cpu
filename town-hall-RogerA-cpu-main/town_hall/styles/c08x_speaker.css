@@ -1,4 +1,5 @@
 /* the styles for the elements */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,6 +7,7 @@
 html {
 	background-color: white;
 }
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -109,16 +111,17 @@ aside img {
 	background-repeat: no-repeat;
 	background-position: 95% center;
 }
-#nav_list ul li a {
+
+#nav_list ul li a.current {
+	color: #800000;
 	display: block;
 	padding: .5em 0 .5em .5em;
 	text-decoration: none;
 	font-weight: bold;
-	color: black;
+	color:black
 }
-#nav_list ul li a.current {
-	color: #800000;
-}
+
+
 
 /* the styles for the footer */
 footer {
@@ -130,4 +133,23 @@ footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+}
+@media screen and (max-width:850px){
+	body {font-size: 90%;}
+	#nav_list ul li {border:none;
+		box-shadow: none;
+		background-image: none;}
+		#nav_list ul li a.current {
+			padding: .5em 0 .5em 0em;}
+}
+@media screen and (max-width: 650px){
+	section {float:none;
+	max-width: 650px;
+	padding: 0px 20px 20px 20px;}
+	
+	aside {float:none;
+	max-width:650px;
+     padding: auto;}
+
+	
 }
