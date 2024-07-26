@@ -59,6 +59,39 @@ section h1 {
 section p {
 	padding-bottom: .5em;
 }
+#nav_list{width: 800px;
+}
+
+
+#nav_list ul {
+	list-style-type: none; 
+	margin-bottom: 1.5em;
+} 
+#nav_list ul li { width: 25.78%;
+	margin-bottom: 0.5em;
+	border: 2px solid black;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 2px 2px 2px 2px #800000;
+	text-align: left;
+} 
+#nav_list ul li a { display: block;
+	padding: .5em 24px .5em 8px; 
+	text-decoration: none; 
+	font-weight: bold; color: black;
+
+}
+
+
+
+	.arrow{padding: 0;
+	    margin: 0;
+		background-image: url("../images/right.jpg");
+		background-repeat: no-repeat;
+		background-position: 97% 50% ;
+		transition: 3s;
+	    }
+	.arrow:hover{transform: rotateX(360deg); 
+	}
 
 /* the styles for the article */
 article {
