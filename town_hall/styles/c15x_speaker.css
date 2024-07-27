@@ -35,6 +35,13 @@ header h3 {
 header img {
 	float: left;
 	padding: 0 30px;
+	animation:bounce 5s ease-in 0s 8 alternate;
+}
+@keyframes bounce {
+	from{padding: auto;}
+
+	to{padding: 20px;}
+
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
